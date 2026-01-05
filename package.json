@@ -1,0 +1,9 @@
+{
+  "name": "image-upscaler",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "form-data": "^4.0.0",
+    "multiparty": "^4.2.3"
+  }
+}
