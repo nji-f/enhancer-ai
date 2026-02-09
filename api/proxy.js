@@ -12,7 +12,8 @@ export default async function handler(req, res) {
         "Referer": "https://upscalepics.com",
         "Content-Type": req.headers['content-type']
       },
-      body: req // Teruskan stream body langsung
+      body: req, // Teruskan stream body langsung
+      duplex: "half"
     });
 
     const data = await response.json();
